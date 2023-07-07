@@ -13,7 +13,7 @@ public class EmployeeApplication {
 	}
 
 	@Bean
-	public ModelMapper modelMapper (){
+	public ModelMapper modelMapper (){     //  used for object mapping or conversion between different object types
 		return new ModelMapper();
 	}
 }
